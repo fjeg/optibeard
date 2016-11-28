@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script src='jquery-1.9.1.min.js'></script>
+	</head>
+
+	<body>
+		<h1 id="counter">
+		</h1>
+		<br clear="all" />
+
+		<div style="float:left;padding:10px;border:2px solid black">
+			<a href="#" onClick='select_beard(0);'>
+				<img id='beard1' src='' height="400px" />
+			</a>
+		</div>
+
+		<div style="float:left;padding:10px;border:2px solid black">
+			<a href="#" onClick='select_beard(1);'>
+				<img id='beard2' src='' height="400px" />
+			</a>
+		</div>
+
+		<br clear="all"/>
+		<br />
+		<br />
+		<button type='button' onClick='select_beard(0)'>Beard 1</button>
+		<button type='button' onClick='select_beard(1)'>Beard 2</button>
+		<button type='button' onClick='select_beard(2)'>Neither</button>
+
+		<br clear="all"/>
+		<br />
+		<br />
+		<div id="dot">
+
+		</div>
+	</body>
+	<script src='beard.js'></script>
+</html>
